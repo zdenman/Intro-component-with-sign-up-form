@@ -23,3 +23,57 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    background: url("./images/bg-intro-desktop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 100vh; */
+    background-color: var(--red);
+    font-family: var(--fontPrimary);
+}
+.container {
+    max-width: 1080px;
+    min-height: 600px;
+    /* background: white; */
+    margin: 4rem auto;
+    display: flex;
+}
+.left {
+    width: 50%;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 3rem;
+}
+.right {
+    width: 50%;
+}
+.purple-alert {
+    background:var(--blue);
+    padding: 1rem 0;
+    text-align: center;
+    color: white;
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+}
+.purple-alert span {
+    font-weight: 600;
+}
+.form-container {
+    background: white;
+    height: 100%;
+    border-radius: .5rem;
+    padding: 2rem;
+    box-shadow: 0 1rem 1rem -1rem var(--darkBlue);
+}
+button {
+    background: var(--green);
+    padding: 1rem 0;
+    width: 100;
+    border-radius: 1rem;
+}
