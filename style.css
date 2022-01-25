@@ -27,13 +27,14 @@ body {
     background: url("./images/bg-intro-desktop.png");
     background-repeat: no-repeat;
     background-size: cover;
-    /* height: 100vh; */
+    /* min-height: 100vh; */
     background-color: var(--red);
     font-family: var(--fontPrimary);
+    
 }
 .container {
     max-width: 1080px;
-    min-height: 600px;
+    /* min-height: 600px; */
     /* background: white; */
     margin: 4rem auto;
     display: flex;
@@ -66,14 +67,68 @@ body {
 }
 .form-container {
     background: white;
-    height: 100%;
+    /* height: 100%; */
     border-radius: .5rem;
     padding: 2rem;
     box-shadow: 0 1rem 1rem -1rem var(--darkBlue);
 }
 button {
     background: var(--green);
-    padding: 1rem 0;
-    width: 100;
-    border-radius: 1rem;
+    padding: 1rem 3rem;
+    width: 100%;
+    border-radius: .5rem;
+    border: none;
+    border-bottom: 5px solid green;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* Form styling */
+.form-control {
+    margin-bottom: .6rem;
+    padding-bottom: 1rem;
+    position: relative;
+}
+.form-control label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.form-control input {
+    display: block;
+    width: 100%;
+    border: 2px solid var(--greyishBlue);
+    padding: 1rem 1.5rem;
+    border-radius: .5rem;
+    font-family: inherit;
+}
+.form-control.success input {
+    border-color: var(--green);
+}
+.form-control.success i.fa-check-circle {
+    color: var(--green);
+    visibility: visible;
+}
+.form-control.error input {
+    border-color: var(--red);
+}
+.form-control.error i.fa-exclamation-circle {
+    color: var(--red);
+    visibility: visible;
+}
+.form-control i {
+    visibility: hidden;
+    position: absolute;
+    top: 3rem;
+    right: 1.5rem;
+}
+.form-control small {
+    visibility: hidden;
+    position: absolute;
+    bottom: -5px;
+    right: 0;
+    color: var(--red);
+}
+.form-control.error small {
+    visibility: visible;
 }
