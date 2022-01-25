@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
     <link rel="stylesheet" href="./style.css">
     <script src="./script.js" defer></script>
     <title>Intro component with sign-up form </title>
@@ -21,8 +22,36 @@
                 <span>Try free for 7 days</span>then $20/mo. thereafter
             </div>
             <div class="form-container">
-                <form action="submit" class="contact">
-                    <input type="text">placeholder
+                <form action="" class="form" id="form">
+                    <div class="form-control">
+                        <label>Name</label>
+                        <input type="text" placeholder="Name" id="username">
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>error message</small>
+                    </div>
+                    <div class="form-control">
+                        <label>Surname</label>
+                        <input type="text" placeholder="Surname" id="surname">
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>error message</small>
+                    </div>
+                    <div class="form-control">
+                        <label>Email</label>
+                        <input type="email" placeholder="youremail@email.com" id="email">
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>error message</small>
+                    </div>
+                    <div class="form-control">
+                        <label>Password</label>
+                        <input type="password" placeholder="Password" id="password">
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>error message</small>
+                    </div>
+                            <button>Claim your free trial</button>
                 </form>
             </div>
         </div>
