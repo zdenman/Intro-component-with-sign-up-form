@@ -85,7 +85,7 @@ button {
     cursor: pointer;
 }
 button:hover {
-    background-color: var(--red);
+    background-color: rgb(119,226,180);
 }
 
 /* Form styling */
@@ -145,4 +145,15 @@ button:hover {
 }
 .form span {
     color: var(--red);
+}
+/* Responsive */
+@media (max-width: 1000px){
+    .container {
+        flex-direction: column;
+        margin: 1rem auto;
+    }
+    .left, .right {
+        width: 90%;
+        margin: auto;
+    }
 }
