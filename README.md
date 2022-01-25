@@ -20,7 +20,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [here](https://www.frontendmentor.io/solutions/intro-component-with-sign-up-form-yks21FyXT)
 - Live Site URL: [here](https://intro-component-with-sign-up-form-cyan.vercel.app/)
 
 ## My process
@@ -33,11 +33,11 @@ Users should be able to:
 
 ### What I learned
 
-Learned how to build forms with html & css and form validation in javaSript.
+Learned how to build forms with html & css and form validation in javaScript.
 
 ### Useful resources
 
-- [Client side form validation](https://www.youtube.com/watch?v=rsd4FNGTRBw&ab_channel=FlorinPop) - This video by Florin Pop helped me a lot building form validation in JS.
+- [Client-side form validation with JS](https://www.youtube.com/watch?v=rsd4FNGTRBw&ab_channel=FlorinPop) - This video by Florin Pop helped me a lot building form validation in JS.
 
 
 ## Author
